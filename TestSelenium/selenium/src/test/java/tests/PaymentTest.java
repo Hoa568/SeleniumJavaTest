@@ -26,7 +26,6 @@ public class PaymentTest extends baseTest {
 
         // Step 4: Input the flight origin
         homePage.inputFlightOrigin("VALENCIA");
-        Assert.assertEquals(driver, homePage);
 
         // Step 5: Input the flight destination
         homePage.inputFlightDestiny("BARCELONA");
