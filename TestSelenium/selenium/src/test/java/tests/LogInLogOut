@@ -24,8 +24,8 @@ public class LogInLogOutTest extends baseTest {
         // Step 3: Accept cookies (if applicable)
         homePage.acceptCookies();
 
-        // Step 4: Input the flight origin
-        homePage.inputFlightOrigin("VALENCIA");
+        // Step 4: Input username
+        homePage.enter("VALENCIA");
 
         // Step 5: Input the flight destination
         homePage.inputFlightDestiny("BARCELONA");
