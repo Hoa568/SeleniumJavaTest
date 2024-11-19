@@ -33,6 +33,9 @@ public class LogInLogOutTest extends baseTest {
         // Step 6: Click Login button
         homePage.click(buttonLogin);
 
+ // Step 6: Click Login button
+        homePage.click(buttonLogin);
+
 
         // Step 9: Close the browser
         //driver.quit();
