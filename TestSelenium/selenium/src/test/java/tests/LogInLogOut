@@ -25,19 +25,14 @@ public class LogInLogOutTest extends baseTest {
         homePage.acceptCookies();
 
         // Step 4: Input username
-        homePage.enter("VALENCIA");
+        homePage.enterText(Username, "Admin");
 
-        // Step 5: Input the flight destination
-        homePage.inputFlightDestiny("BARCELONA");
+      // Step 5: Input password
+        homePage.enterText(Password, "admin123");
 
-        // Step 6: Select the trip type
-        homePage.selectTrip();
+        // Step 6: Click Login button
+        homePage.click(buttonLogin);
 
-        // Step 7: Choose today's date from the calendar
-        homePage.chooseDateOnCalender();
-
-        // Step 8: Search for available resources (flights)
-        homePage.searchResouces();
 
         // Step 9: Close the browser
         //driver.quit();
